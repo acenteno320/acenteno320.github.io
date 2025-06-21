@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      color: #333;
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #1a202c;
+    }
+
+    p {
+      color: #4a5568;
+      margin-top: 0.5rem;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 1rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      margin-bottom: 0.5rem;
+      color: #2d3748;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #718096;
+    }
+
+    a {
+      color: #3182ce;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ana Centeno</h1>
+    <p>Data Analyst · BI & Visualization · Tech for Social Good</p>
+  </header>
+
+  <section class="projects">
+    <div class="card">
+      <h3>📊 DataNova – Análisis de Ventas</h3>
+      <p>Dashboard interactivo en Excel con ventas por región. Incluye funciones avanzadas, segmentadores y análisis visual.</p>
+    </div>
+
+    <div class="card">
+      <h3>📈 Proyecto Northwind</h3>
+      <p>Análisis de datos con Power BI utilizando el dataset Northwind. KPIs, ventas por categoría, y tendencias mensuales.</p>
+    </div>
+
+    <div class="card">
+      <h3>🌍 Francisation au Québec</h3>
+      <p>Visualización en Tableau sobre la integración lingüística de inmigrantes usando datos del MIFI. Hecho en francés.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Conecta conmigo en <a href="https://www.linkedin.com/in/tuusuario" target="_blank">LinkedIn</a> · Portafolio en GitHub · <a href="mailto:tuemail@example.com">Contáctame</a></p>
+  </footer>
+
+</body>
+</html>
