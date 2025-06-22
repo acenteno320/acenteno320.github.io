@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Portfolio</title>
+  <title>Portafolio de Ana Centeno</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"/>
   <style>
     * {
@@ -16,28 +16,55 @@
     body {
       background: #f5f7fa;
       color: #333;
-      padding: 2rem;
+      padding: 0;
     }
 
     header {
+      background-color: #1a237e; /* Azul marino */
+      color: white;
+      padding: 2rem;
       text-align: center;
-      margin-bottom: 3rem;
+      border-bottom: 8px solid #1a237e;
     }
 
     h1 {
       font-size: 2.5rem;
-      color: #1a202c;
     }
 
-    p {
-      color: #4a5568;
+    p.subtitle {
+      font-size: 1.2rem;
       margin-top: 0.5rem;
+    }
+
+    .repos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin: 2rem auto;
+      max-width: 800px;
+    }
+
+    .repos a {
+      background-color: #1a237e;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color 0.3s;
+    }
+
+    .repos a:hover {
+      background-color: #3949ab;
     }
 
     .projects {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 2rem;
+      padding: 2rem;
     }
 
     .card {
@@ -63,17 +90,18 @@
 
     footer {
       text-align: center;
-      margin-top: 3rem;
-      font-size: 0.9rem;
-      color: #718096;
+      background-color: #1a237e;
+      color: white;
+      padding: 1rem;
+      border-top: 3px solid #1a237e;
     }
 
-    a {
-      color: #3182ce;
+    footer a {
+      color: #bbdefb;
       text-decoration: none;
     }
 
-    a:hover {
+    footer a:hover {
       text-decoration: underline;
     }
   </style>
@@ -82,12 +110,21 @@
 
   <header>
     <h1>Ana Centeno</h1>
-    <p>Data Analyst · BI & Visualization · Tech for Social Good</p>
+    <p class="subtitle">Data Analyst · BI & Visualization · Tech for Social Good</p>
   </header>
+
+  <section class="repos">
+    <a href="https://github.com/usuario/repositorio1" target="_blank">Repo 1</a>
+    <a href="https://github.com/usuario/repositorio2" target="_blank">Repo 2</a>
+    <a href="https://github.com/usuario/repositorio3" target="_blank">Repo 3</a>
+    <a href="https://github.com/usuario/repositorio4" target="_blank">Repo 4</a>
+    <a href="https://github.com/usuario/repositorio5" target="_blank">Repo 5</a>
+    <a href="https://github.com/usuario/repositorio6" target="_blank">Repo 6</a>
+  </section>
 
   <section class="projects">
     <div class="card">
-      <a href='https://github.com/acenteno320/data-science-job-market-analysis.md'><h3>📊 DataNova – Análisis de Ventas</h3></a>
+      <h3>📊 DataNova – Análisis de Ventas</h3>
       <p>Dashboard interactivo en Excel con ventas por región. Incluye funciones avanzadas, segmentadores y análisis visual.</p>
     </div>
 
@@ -102,13 +139,6 @@
     </div>
   </section>
 
-  <div class="card">
-      <h3>🌍 Francisation au Québec</h3>
-      <p>Visualización en Tableau sobre la integración lingüística de inmigrantes usando datos del MIFI. Hecho en francés.</p>
-    </div>
-  </section>
-
-  
   <footer>
     <p>Conecta conmigo en <a href="https://www.linkedin.com/in/tuusuario" target="_blank">LinkedIn</a> · Portafolio en GitHub · <a href="mailto:tuemail@example.com">Contáctame</a></p>
   </footer>
