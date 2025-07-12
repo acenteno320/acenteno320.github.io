@@ -1,170 +1,153 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portafolio de Ana Centeno</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"/>
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: 'Inter', sans-serif;
-    }
 
-    body {
-      background: #f5f7fa;
-      color: #333;
-      padding: 0;
-    }
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title> The Analyst</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-   header {
-  background-color: #455a64; /* Azul acero */
-  color: white;
-  padding: 2rem;
-  text-align: center;
-  border-bottom: 8px solid #455a64;
-}
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
 
-
-    h1 {
-      font-size: 2.5rem;
-    }
-
-    p.subtitle {
-      font-size: 1.2rem;
-      margin-top: 0.5rem;
-    }
-
-    .repos {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 1rem;
-      margin: 2rem auto;
-      max-width: 800px;
-    }
-
-    .repos a {
-      background-color: #1a237e;
-      color: white;
-      padding: 0.75rem 1.5rem;
-      border: none;
-      border-radius: 5px;
-      text-decoration: none;
-      font-weight: 600;
-      transition: background-color 0.3s;
-    }
-
-    .repos a:hover {
-      background-color: #3949ab;
-    }
-
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 2rem;
-      padding: 2rem;
-    }
-
-   --- .card {
-      background: #fff;
-      border-radius: 1rem;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-      padding: 1.5rem;
-      transition: transform 0.3s ease;
-  ---  }
-
- ---   .card:hover {
-   ----   transform: translateY(-5px);
-    ---}'''
-
-.card {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: all 0.6s ease-in-out;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  opacity: 1;
-}
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Alex Freberg<br />
+						Portfolio</h1>
+						<p>Data Analyst well versed in SQL, Python, Tableau, Power BI <a href="https://www.youtube.com/channel/UC7cs8q-gJRlGwj4A8OmCmXg">@AlexTheAnalyst</a>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
 
 
-    
-    .card h3 {
-      margin-bottom: 0.5rem;
-      color: #2d3748;
-    }
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Projects</a></li>
 
-    .card p {
-      font-size: 0.95rem;
-    }
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/alex-freberg/" class="icon brands fa-linkedin"><span class="label">fa-linkedin</span></a></li>
+							<li><a href="https://github.com/AlexTheAnalyst" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
 
-    footer {
-  text-align: center;
-  background-color: #455a64;
-  color: white;
-  padding: 1rem;
-  border-top: 3px solid #455a64;
-}
+				<!-- Main -->
+					<div id="main">
 
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="#">Data Cleaning<br />
+									in SQL</a></h2>
+									<p>In this project we take raw housing data and transform <br />
+									it in SQL Server to make it more usable for analysis.<br />
+									</p>
+								</header>
+								<a href="https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/Data%20Cleaning%20Portfolio%20Project%20Queries.sql" class="image main"><img src="images\housing.jpg" alt="" /></a>
+								<ul class="actions special">
+									<li><a href="https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/Data%20Cleaning%20Portfolio%20Project%20Queries.sql" class="button large">View Project</a></li>
+								</ul>
+							</article>
 
-    footer a {
-      color: #bbdefb;
-      text-decoration: none;
-    }
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2><a href="#">COVID 19<br />
+										Data Exploration</a></h2>
+									</header>
+									<a href="https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/COVID%20Portfolio%20Project%20-%20Data%20Exploration.sql" class="image fit"><img src="images/covid.jpg" alt="" /></a>
+									<p>In this project we use SQL Server to explore global COVID 19 data. </p>
+									<ul class="actions special">
+										<li><a href="https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/COVID%20Portfolio%20Project%20-%20Data%20Exploration.sql" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Tableau Dashboards<br />
+										</a></h2>
+									</header>
+									<a href="https://public.tableau.com/profile/alexander.freberg#!/?newProfile=&activeTab=0" class="image fit"><img src="images/tableau.jpg" alt="" /></a>
+									<p>Tableau Dashboards for projects on COVID 19, Financial Forecasting, and Fantasy Football </p>
+									<ul class="actions special">
+										<li><a href="https://public.tableau.com/profile/alexander.freberg#!/?newProfile=&activeTab=0" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Movie Correlation<br />
+										with Python</a></h2>
+									</header>
+									<a href="github link here" class="image fit"><img src="images/movies.jpg" alt="" /></a>
+									<p>In this project we look at what variables effect the gross revenue from movies.</p>
+									<ul class="actions special">
+										<li><a href="github link here" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Amazon Web Scraper<br />
+										with Python</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/amazon2.jpg" alt="" /></a>
+									<p>In this project we scrape data from Amazon to analyze price data for products.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">View Project</a></li>
+									</ul>
+								</article>
+								
 
-    footer a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
+				<!-- Footer -->
+					<footer id="footer">
 
-  <header>
-    <h1>Ana Centeno</h1>
-    <p class="subtitle">Data Analyst · BI & Visualization · Tech for Social Good</p>
-  </header>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>1234 Somewhere Road #87257<br />
+								Dallas, Tx 12345-6789</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(123) 456-7890</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">AlexTheAnalyst95@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/alex-freberg/" class="icon brands fa-linkedin"><span class="label">fa-linkedin</span></a></li>
+							<li><a href="https://github.com/AlexTheAnalyst" class="icon brands fa-github"><span class="label">GitHub</span></a></li></ul>
+							</section>
+						</section>
+					</footer>
 
-<br>
-  <center>
-  <section class="projects">
-    <div class="card">
-      <h3>📊 DataNova – Análisis de Ventas</h3>
-      <p>Dashboard interactivo en Excel con ventas por región. Incluye funciones avanzadas, segmentadores y análisis visual.</p>
-    </div>
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
 
-    <div class="card">
-      <h3>📈 Proyecto Northwind</h3>
-      <p>Análisis de datos con Power BI utilizando el dataset Northwind. KPIs, ventas por categoría, y tendencias mensuales.</p>
-    </div>
+			</div>
 
-    <div class="card">
-      <h3>🌍 Francisation au Québec</h3>
-      <p>Visualización en Tableau sobre la integración lingüística de inmigrantes usando datos del MIFI. Hecho en francés.</p>
-    </div>
-  <br>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-  <div class="card">
-      <h3>🌍 Francisation au Québec</h3>
-      <p>Visualización en Tableau sobre la integración lingüística de inmigrantes usando datos del MIFI. Hecho en francés.</p>
-    </div>
-  
- <div class="card">
-      <h3>🌍 Francisation au Québec</h3>
-      <p>Visualización en Tableau sobre la integración lingüística de inmigrantes usando datos del MIFI. Hecho en francés.</p>
-    </div>
-    
-  </section>
-    </center>
-  
-  <br>
-  
-  <footer>
-    <p>Conecta conmigo en <a href="https://www.linkedin.com/in/ana-centeno-baltazar/" target="_blank">LinkedIn</a> · Portafolio en GitHub · <a href="mailto:centenoaj@outlook.com">Contáctame</a></p>
-  </footer>
-
-</body>
+	</body>
 </html>
