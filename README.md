@@ -29,7 +29,7 @@ The goal of this mini-project is to illustrate key milestones in the evolution o
 
 ## 🔗 See the Timeline
 
-👉 (https://public.tableau.com/authoring/EvolutionofDataRoles_Timeline/Feuille1#1)
+👉 (https://public.tableau.com/views/EvolutionofDataRoles_Timeline/Feuille1?:language=fr-FR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
