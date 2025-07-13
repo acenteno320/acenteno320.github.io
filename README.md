@@ -1,7 +1,7 @@
 
 # 📊 Timeline — The Evolution of Data Careers in IT
 
-This interactive timeline was created as part of my *AEC in Business Intelligence and Visualization Analysis* program.
+This interactive timeline was created as part of my investigation related to Data Evolution.
 
 ---
 
