@@ -5,9 +5,17 @@ This interactive timeline was created as part of my investigation related to Dat
 
 ---
 
-## 📌 Objective
+## 📌 Project Objectives
+The primary objective of this project is to provide a comprehensive timeline showcasing the evolution of data science and data-related careers over the decades. The goal of this mini-project is to illustrate key milestones in the evolution of data-relates roles within Information Technology (IT) -from the first database administrators to modern roles like MLOps and IA Governance. The time will highlight:
+- Key milestones and technological breakthroughs that have shaped the field of data management, analysis, and processing.
+- The pioneers and leading figures whose innovations and contributions have driven the advancement of data technolgies.
+- The emergence and transformatioin of careers related to data , from early database management roles to modern data science and IA positions.
+- The integration of statistical data and visual elements to illustrater trends in data volume, technological adoption, and workforce growth.
+- To create an interactive and visually engaging dashboard (using tool such as Tableau) that enables users to explore the history and future direction of data science.
 
-The goal of this mini-project is to illustrate key milestones in the evolution of data-related roles within Information Technology (IT) — from the first database administrators to modern roles like MLOps and AI Governance.
+This project aims to demostrat my ability to research, synthesize complex historical and technical information , and present it effectively through data visualization techniques, thereby showcasing skills critical for a data analyst role. 
+
+
 
 ---
 
