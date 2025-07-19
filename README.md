@@ -37,7 +37,8 @@ This project aims to demostrat my ability to research, synthesize complex histor
 
 ## 🔗 See the Timeline
 
-👉 [Click to see Tableau Interactive](https://public.tableau.com/views/EvolutionofDataRoles_Timeline/Feuille1?:language=fr-FR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+👉 [Click to see Tableau Interactive : Pioneers in Data Evolution](https://public.tableau.com/app/profile/ana.centeno/viz/PioneersinDataEvolution/Pioneers_Data_Evolution)
+👉 [Click to see Tableau Interactive : Data Careers in IT](https://public.tableau.com/views/EvolutionofDataRoles_Timeline/Feuille1?:language=fr-FR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
