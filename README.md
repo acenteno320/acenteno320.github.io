@@ -1,12 +1,12 @@
 
 # 📊 Timeline — The Evolution of Data Careers in IT
 
-This interactive timeline was created as part of my investigation related to Data Evolution.
-
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Technologies](https://img.shields.io/badge/Technologies-Tableau%20%7C%20Excel-blue)
 ![Language](https://img.shields.io/badge/Language-English-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
+
+This interactive timeline was created as part of my investigation related to Data Evolution.
 
 ---
 
