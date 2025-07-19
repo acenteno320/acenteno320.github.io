@@ -28,6 +28,7 @@ This project aims to demostrat my ability to research, synthesize complex histor
 
 - Tableau Public
 - CSV file with historical milestones
+- CSV file with the Pioneers in Data, name, contribution, years
 
 ---
 
