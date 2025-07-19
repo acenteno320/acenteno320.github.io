@@ -32,7 +32,7 @@ By examining this data, users can gain a clearer understanding of how the field 
 ## Pioneers and Milestones in Data History (1640–2025)
 
 ### 1640–1899: Foundations of Data and Statistics
-Notable figures from this era include:
+**Notable figures from this era include:**
 
 - **John Graunt (1620–1674):** Early demographic data analysis; analyzed mortality records.
 - **Edmund Halley (1656–1742):** Developed actuarial tables for risk and life expectancy.
