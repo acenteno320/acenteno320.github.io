@@ -64,3 +64,7 @@ Notable figures from this era include:
 - Popularization of interactive visualization tools (Tableau, Power BI).
 - Focus on data privacy and ethical standards (GDPR, etc.).
 
+
+🔗 **Interactive Dashboard:**  
+Explore the full interactive timeline here: [  ]
+
