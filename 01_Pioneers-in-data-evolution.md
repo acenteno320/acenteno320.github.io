@@ -32,6 +32,7 @@ By examining this data, users can gain a clearer understanding of how the field 
 ## Pioneers and Milestones in Data History (1640–2025)
 
 ### 1640–1899: Foundations of Data and Statistics
+Notable figures from this era include:
 
 - **John Graunt (1620–1674):** Early demographic data analysis; analyzed mortality records.
 - **Edmund Halley (1656–1742):** Developed actuarial tables for risk and life expectancy.
@@ -39,6 +40,7 @@ By examining this data, users can gain a clearer understanding of how the field 
 - **Florence Nightingale (1820–1910):** Used data visualization to improve public health.
 
 ### 1900–1950: Statistical Theory and Early Computing
+Notable figures from this era include:
 
 - **Francis Galton (1822–1911):** Correlation and regression concepts.
 - **Karl Pearson (1857–1936):** Mathematical foundations of statistics.
@@ -48,12 +50,14 @@ By examining this data, users can gain a clearer understanding of how the field 
 - **Grace Hopper (1906–1992):** Developed early compilers and programming languages.
 
 ### 1950–1999: Relational Databases and Data Mining
+Notable figures from this era include:
 
 - **Edgar F. Codd (1923–2003):** Proposed the relational database model (1970).
 - Development of SQL and data warehouses.
 - Growth of data mining techniques and predictive modeling.
 
 ### 2000–2025: Big Data, AI, and Data Ethics
+Notable figures from this era include:
 
 - Emergence of Big Data platforms (Hadoop, Spark).
 - Advancement in machine learning and AI algorithms.
